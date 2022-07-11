@@ -232,6 +232,8 @@ fill: #2196F3;
 	background-color: #F5F4FA ;
 	background-size:auto;
 	margin: 0 0 30px;
+	border-radius: 4px;
+
 }
 
 .icon-attention::before{
@@ -322,6 +324,7 @@ fill: #2196F3;
 
 .team-position {
 	margin: 0;
+	margin-bottom: 16px;
 	color: var(--additional-tex-color);
 	font-weight: 400;
 	font-size: 16px;
@@ -384,7 +387,6 @@ fill:#FFFFFF;
 	justify-content: center;
 	align-items: center;
 	margin-top: 50px;
-	margin-bottom: 94px;
 	
 }
 
@@ -573,10 +575,7 @@ fill:#FFFFFF;
 	cursor: pointer;
 	font-weight: 500;
 }
-.button-item:first-child {
-margin: 0;
 
-}
 /* portfolio */
 
 .porfolio-filter {
